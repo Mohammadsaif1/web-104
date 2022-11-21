@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="jquery.flipster.min.css">
+     <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+</head>
+<body>
+   <!-------navbar------> 
+  <header class="header">
+      <img src="images/Untitled-1.png" alt="">
+      
+      <nav class="navbar">
+         <a href="#home">home</a>
+         <a href="#features">features</a>
+         <a href="#products">products</a>
+         <a href="#categories">categories</a>
+         <a href="#review">review</a>
+         <a href="#blogs">blogs</a>
+      </nav>
+      <div class="icons">
+          <div class="fas fa-bars" id="menu-btn"></div>
+          <div class="fas fa-search" id="search-btn"></div>
+          <div class="fas fa-shopping-cart" id="cart-btn"></div>
+          <div class="fas fa-user" id="login-btn"></div>
+      </div>
+  </header>
+  
+  
+   <!-------slider------>
+   
+   <div class="hero">
+       <div class="carousel">
+           <ul>
+               <li><img src="images/unnamed.png" alt=""></li>
+               <li><img src="images/unnamed2.jpg" alt=""></li>
+               <li><img src="images/unnamed3.jpg" alt=""></li>
+               <li><img src="images/unnamed4.jpg" alt=""></li>
+               <li><img src="images/unnamed5.webp" alt=""></li>
+               <li><img src="images/unnamed6.webp" alt=""></li>
+               <li><img src="images/unnamed7.jpg" alt=""></li>
+               <li><img src="images/unnamed8.jpg" alt=""></li>
+               <li><img src="images/unnamed9.webp" alt=""></li>
+               <li><img src="images/unnamed.png" alt=""></li>
+           </ul>
+       </div>
+   </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+   <script src="jquery.flipster.min.js"></script>
+   <script>
+    $('.carousel').flipster({
+        style:'carousel',
+        spacing:-0.3,
+    });
+</script>
+</body>
+</html>
